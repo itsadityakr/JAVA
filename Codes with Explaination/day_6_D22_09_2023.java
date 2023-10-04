@@ -33,5 +33,7 @@ public class day_6_D22_09_2023 {
 
         // Print the value of 'num' in the 'obj1' instance (it remains unchanged, so it's 5)
         System.out.println(obj1.num);
+        System.out.println(data);
+        System.out.println(r1);
     }
 }

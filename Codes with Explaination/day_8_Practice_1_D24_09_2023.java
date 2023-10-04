@@ -101,6 +101,8 @@ public class day_8_Practice_1_D24_09_2023 {
 
         // Print the result
         System.out.print("Area of the circle with radius " + radius_input + " is " + result_f);
+        // Close the Scanner object to prevent resource leak
+        sc.close();
     }
 }
 

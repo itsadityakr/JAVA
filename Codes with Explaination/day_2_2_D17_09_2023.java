@@ -18,5 +18,6 @@ public class day_2_2_D17_09_2023 {
         System.out.println("int to byte: " + f);
         float g = 5.6f;
         int h = (int)g;
+        System.out.println(h);
     }
 }

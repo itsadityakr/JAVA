@@ -7,6 +7,14 @@ class Calculator {
         // Return the result of the addition
         return r;
     }
+
+    public String subtract(int i, int j) {
+        return null;
+    }
+
+    public String multiply(int i, int j) {
+        return null;
+    }
 }
 public class day_5_1_D20_09_2023 {
     public static void main (String [] a){
@@ -20,7 +28,7 @@ public class day_5_1_D20_09_2023 {
         Calculator calc = new Calculator();
 
         // Call the 'add' method of the 'calc' object with arguments '4' and '5'
-        int result = calc.add(4, 5);
+        int result = calc.add(num1, num2);
 
         // Print the result of the addition
         System.out.println(result);

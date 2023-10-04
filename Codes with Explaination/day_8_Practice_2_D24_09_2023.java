@@ -2,6 +2,8 @@
 7.	Multi-Dimensional Array in Java
 Implement a Java program that creates a 2D array representing a tic-tac-toe board. Allow two players to take turns and update the board until one of them wins or the game ends in a draw. Implement a function to check the game's outcome.*/
 
+
+/*--------------------------REMOVE THIS LINE and LINE NO. 183
 import java.util.Random;
 import java.util.Scanner;
 
@@ -69,8 +71,9 @@ public class day_8_Practice_2_D24_09_2023 {
             initializeBoard();
             main(args); // Start a new game
         }
+        
     }
-
+    
     // Function to initialize the game board with empty spaces
     private static void initializeBoard() {
         for (int i = 0; i < 3; i++) {
@@ -105,7 +108,6 @@ public class day_8_Practice_2_D24_09_2023 {
         int[] move = new int[2];
         System.out.print("Player " + currentPlayer + ", enter your move (e.g., A1, B2): ");
         String input = scanner.next().toUpperCase();
-
         if (input.length() == 2) {
             char colChar = input.charAt(0);
             char rowChar = input.charAt(1);
@@ -114,9 +116,10 @@ public class day_8_Practice_2_D24_09_2023 {
                 move[0] = rowChar - '1'; // Convert the row character to an index (0-2)
                 move[1] = colChar - 'A'; // Convert the column character to an index (0-2)
                 return move;
+                
             }
         }
-
+        
         System.out.println("Invalid move. Please enter a valid move (e.g., A1, B2).");
         return getPlayerMove(); // Recursively ask for a valid move if input is invalid
     }
@@ -177,6 +180,8 @@ public class day_8_Practice_2_D24_09_2023 {
         return new int[]{row, col};
     }
 }
+--------------------------REMOVE THIS LINE and LINE NO. 6*/
+
 /*
 
 Algorithm: Tic-Tac-Toe Game
@@ -244,5 +249,4 @@ Space Complexity Analysis:
 The space complexity is determined by the game board (2D character array board), which is constant (3x3).
 Therefore, the space complexity is O(1), as the amount of memory used does not depend on the input size.
 This algorithm provides an efficient implementation for playing tic-tac-toe with either another player or an AI opponent, with minimal memory and computation requirements.
-
-* */
+*/
