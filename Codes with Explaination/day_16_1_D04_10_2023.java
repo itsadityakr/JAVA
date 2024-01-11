@@ -1,5 +1,3 @@
-// v055 Packages in Java --------------------------------------------
-import java_package.*;
 // import java_package(folder name) to access all classes.
 // '*' -> is used to import all the files inside the package
 public class day_16_1_D04_10_2023 {
@@ -16,7 +14,8 @@ public class day_16_1_D04_10_2023 {
         System.out.println("Addition: " + basicCalculator.add(10, 5));
         System.out.println("Subtraction: " + basicCalculator.subtract(10, 5));
         System.out.println("Multiplication: " + basicCalculator.multiply(10, 5));
-        System.out.println("Division: " + basicCalculator.divide(10.0, 5.0));
+        System.out.println("Division: " + basicCalculator.divide(10.0, 5.0)); 
+
 
         // Advanced Calculator
         System.out.println("\nAdvanced Calculator:");

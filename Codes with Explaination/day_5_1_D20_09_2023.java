@@ -15,6 +15,10 @@ class Calculator {
     public String multiply(int i, int j) {
         return null;
     }
+
+    public String divide(double d, double e) {
+        return null;
+    }
 }
 public class day_5_1_D20_09_2023 {
     public static void main (String [] a){

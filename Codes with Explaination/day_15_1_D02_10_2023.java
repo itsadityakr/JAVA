@@ -1,7 +1,7 @@
 // v052 Single and Multilevel inheritance in java --------------------------------------------
 // Single level inheritance in java
 // Define a class named Calc1
-class Calc1 {
+class Calc11 {
     // Method to add two integers
     public int add(int m, int n) {
         return m + n;
@@ -13,7 +13,7 @@ class Calc1 {
     }
 }
 // Define a class named AdvCalc1 that extends Calc1 (Inherits from Calc1)
-class AdvCalc1 extends Calc1 {
+class Adv1Calc1 extends Calc1 {
     // Method to multiply two integers (Inherited from Calc1)
     public int multi(int m, int n) {
         return m * n;
